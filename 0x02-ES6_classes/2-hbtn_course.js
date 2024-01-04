@@ -36,7 +36,7 @@ export default class HolbertonCourse {
       this._students = students;
     }
   
-    eslint-disable-next-line class-methods-use-this
+    // eslint-disable-next-line class-methods-use-this
     _checkType(value, type, variableName, errorMessageParam) {
       let errorMessage = errorMessageParam;
       if (!errorMessage) {
